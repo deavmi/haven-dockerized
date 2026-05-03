@@ -4,3 +4,5 @@ RUN apt update
 RUN apt upgrade -u
 
 RUN apt install golang -y
+
+RUN go build -v 
